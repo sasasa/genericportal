@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+img {
+  max-width: 100%;
+}
+.form-check-label {
+  user-select: none;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
